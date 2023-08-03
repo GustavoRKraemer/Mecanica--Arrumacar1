@@ -38,6 +38,9 @@ nav a:hover {
 	margin: 0 auto;
 	padding: 50px 0;
 }
+.prodimg {
+	width: 150px;
+}
 
 .produtos li {
 	display: inline-block;

@@ -4,6 +4,7 @@ html {
 
 body {
     font-family: 'Tektur', cursive;
+    min-height: 100vh;
 }
 
 header {
@@ -41,18 +42,30 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.prodimg {
+    width: 40%;
+    margin: 2em 2em 2em 2em;
+}
+
+
 .produtos {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
 }
 
+.fontelista {
+    font-size: 1.7em;
+    margin: 2em;
+}
+
 .produtos li {
     display: inline-block;
     text-align: center;
     width: 30%;
+    height: 40vh;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 2px 2px 2px 2px;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
@@ -96,10 +109,6 @@ footer {
     color: #FFFFFF;
     font-size: 13px;
     margin: 20px 0 0;
-}
-
-main {
-    
 }
 
 form {
