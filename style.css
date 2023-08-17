@@ -270,3 +270,6 @@ td, th {
     margin: 2em auto;
     background: linear-gradient(45deg, skyblue,white,skyblue);
 }
+.tabelamotor {
+    text-align: center;
+}
